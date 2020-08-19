@@ -7,6 +7,6 @@
 
 
 ``` bash
-sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/askeynil/quickscript@master/install.sh)"
+sh -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/askeynil/quickscript@master/quick.sh)"
 ```
 
