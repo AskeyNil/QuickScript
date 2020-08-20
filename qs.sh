@@ -1,8 +1,7 @@
 #!/bin/bash
 
-QS_Path="~/Documents/.QuickScript"
+cd ~/Documents/.QuickScript
 . msg.sh
-
 start() {
     while :
     do
