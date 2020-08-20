@@ -27,3 +27,18 @@ set_git_user() {
 install_nvm() {
     [ ! $NVM_DIR ] && bash ./MacBootstrap/install_nvm.sh ${node_version}
 }
+
+install_hexo() {
+    [[ `which hexo` ]] || npm install hexo-cli -g
+    cd Blog
+    npm install --registry=https://registry.npm.taobao.org
+    cd ../
+}
+
+set_git_user
+install_nvm
+install_hexo
+rm -rf /usr/local/bin/qs
+ln -s ~/Documents/.QuickScript/ak.sh /usr/local/bin/qs
+
+on_success "安装成功"
