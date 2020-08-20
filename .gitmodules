@@ -1,7 +1,6 @@
 [submodule "MacBootstrap"]
 	path = MacBootstrap
 	url = https://github.com.cnpmjs.org/AskeyNil/MacBootstrap.git
-
 [submodule "Blog"]
 	path = Blog
 	url = https://github.com.cnpmjs.org/AskeyNil/MyBlogSource.git
