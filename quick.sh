@@ -6,5 +6,5 @@ if [ -e ${path_name} ] ; then
 else
     git clone https://github.com.cnpmjs.org/AskeyNil/QuickScript.git ${path_name} --recursive
     cd ${path_name}
-    bash start.sh
+    bash install.sh
 fi
