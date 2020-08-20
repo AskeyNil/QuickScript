@@ -39,6 +39,6 @@ set_git_user
 install_nvm
 install_hexo
 rm -rf /usr/local/bin/qs
-ln -s ~/Documents/.QuickScript/ak.sh /usr/local/bin/qs
+ln -s ~/Documents/.QuickScript/qs.sh /usr/local/bin/qs
 
 on_success "安装成功"
