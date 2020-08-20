@@ -6,5 +6,6 @@ if [ -e ${path_name} ] ; then
 else
     git clone https://github.com.cnpmjs.org/AskeyNil/QuickScript.git ${path_name} --recursive
     cd ${path_name}
+    git submodule foreach git checkout master
     bash install.sh
 fi
