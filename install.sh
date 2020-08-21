@@ -20,8 +20,8 @@ add_zsh() {
 }
 
 set_git_user() {
-    git config user.name --global "AskeyNil"
-    git config user.email --global "askeynil@gmail.com"
+    git config --global user.name  "AskeyNil"
+    git config --global user.email "askeynil@gmail.com"
 }
 
 install_nvm() {
