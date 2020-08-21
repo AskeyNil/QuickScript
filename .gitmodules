@@ -7,3 +7,6 @@
 [submodule "BlogCode"]
 	path = BlogCode
 	url = https://github.com.cnpmjs.org/AskeyNil/BlogCode.git
+[submodule "LeetCode"]
+	path = LeetCode
+	url = https://github.com.cnpmjs.org/AskeyNil/LeetCode.git
